@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.env
+.env.*
+
+# Data
+/data/raw/
+/data/processed/
+/data/warehouse/*.wal
+
+# DuckDB temp
+*.duckdb.tmp
+
+# VSCode
+.vscode/
+
+# Streamlit
+.streamlit/
+
+# Prefect
+.prefect/
